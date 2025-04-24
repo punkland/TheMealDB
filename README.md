@@ -15,8 +15,17 @@ Una aplicación Flutter construida con Clean Architecture y BLoC que consume la 
 - 🌐 Soporte para múltiples idiomas con `AppLocalizations`
 - 🎨 Responsive UI con `sizer` + diseño modular
 
+## 🧪 Api usada
+
+Se utiliza la API pública gratuita de TheMealDB.
+
+- Endpoint búsqueda: https://www.themealdb.com/api/json/v1/1/search.php?s=
+- Endpoint por ID: https://www.themealdb.com/api/json/v1/1/lookup.php?i=
+
+
 ## 🛠️ Estructura del proyecto
 
+```bash
 lib/
 ├── core/                  # Temas, constantes, helpers, localizations
 ├── features/recipes/      # Lógica principal (Clean Architecture)
@@ -26,8 +35,4 @@ lib/
 ├── injection_container.dart
 └── main.dart
 
-## 🧪 Api usada
 
-Se utiliza la API pública gratuita de TheMealDB.
-	•	Endpoint búsqueda: https://www.themealdb.com/api/json/v1/1/search.php?s=
-	•	Endpoint por ID: https://www.themealdb.com/api/json/v1/1/lookup.php?i=
