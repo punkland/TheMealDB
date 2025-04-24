@@ -1,0 +1,13 @@
+{
+  "title": "Recetas themealdb",
+  "favorites": "Favoritas",
+  "thereAreNotFavorites": "No hay recetas favoritas.",
+  "searchRecipes": "Buscar Recetas",
+  "example": "Ej. pasta, pollo..",
+  "noRecipesFound": "No se encontraron recetas.",
+  "findARecipe": "Busca una receta...",
+  "instructions": "Instrucciones:",
+  "ingredients": "Ingredientes:",
+  "noInstructionsAvailable": "Sin instrucciones disponibles",
+  "retry": "Reintentar"
+}
